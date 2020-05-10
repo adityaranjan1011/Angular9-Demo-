@@ -1,0 +1,37 @@
+.demo {
+  
+    .header{
+      padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 14px;
+  
+        .selectstatus{
+          padding-right: 10px;
+        }
+    }
+    .tabIndex{
+      width: 80%;
+    }
+    .role{
+      display: grid;
+        grid-template-columns: 0.35fr 1fr 1fr;
+        .text{
+          padding: 22px;        
+        }
+        .selectstatus{
+          padding-right: 10px;
+        }
+  
+    }
+    .teamName{
+      padding:10px;
+      font-size: 12px;
+    }
+    .save{
+      margin-left: 20px;
+    }
+    .cancel{
+      margin-left: 20px;
+    }
+  }
